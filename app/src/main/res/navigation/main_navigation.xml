@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/navigation_dailylook">
+
+    <fragment
+        android:id="@+id/navigation_dailylook"
+        android:name="com.beinny.dailylookapp.DailylookFragment"
+        android:label="DailylookFragment" />
+    <fragment
+        android:id="@+id/navigation_backup"
+        android:name="com.beinny.dailylookapp.BackupFragment"
+        android:label="BackupFragment" />
+    <fragment
+        android:id="@+id/navigation_category"
+        android:name="com.beinny.dailylookapp.CategoryFragment"
+        android:label="CategoryFragment" />
+</navigation>
